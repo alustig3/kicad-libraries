@@ -1,0 +1,72 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 5569263-1
+D 12 port (2x6) RJ45 Jack
+K 12 port RJ45 ethernet jack
+F https://www.digikey.com/products/en?keywords=5569263
+$ENDCMP
+#
+$CMP AO4882
+D Dual N-Channel MOSFET
+K MOSFET 2 channel dual
+F https://www.digikey.com/product-detail/en/AO4882/785-1317-1-ND/3061026/?itemSeq=290939937
+$ENDCMP
+#
+$CMP B3F-4000
+D 12mm SPST-NO tactile switch
+K SPST-NO tactile switch omron B3F-4000
+F https://www.digikey.com/products/en?keywords=B3F-4000
+$ENDCMP
+#
+$CMP B3FS-1010P
+D 6mm SPST-NO tactile switch
+K SPST-NO tactile switch 6mm smd B3FS-1010P omron
+F https://www.digikey.com/products/en?keywords=sw1440ct
+$ENDCMP
+#
+$CMP DIN_Rail_Adapter
+D DIN Rail adapter universal, mounting holes without connection
+K Mounting holes, DIN rail adapter
+F ~
+$ENDCMP
+#
+$CMP Diode
+D Diode
+K diode
+F ~
+$ENDCMP
+#
+$CMP MC7805BDTRKG
+D Positive 1A 35V Linear Regulator, Fixed Output 5V, DPAK
+K Voltage Regulator 1A Positive
+F https://www.digikey.com/product-detail/en/on-semiconductor/MC7805BDTRKG/MC7805BDTRKGOSCT-ND/1139742
+$ENDCMP
+#
+$CMP MC7805_DPAK
+D Positive 1A 35V Linear Regulator, Fixed Output 5V, DPAK
+K Voltage Regulator 1A Positive
+F https://www.digikey.com/product-detail/en/on-semiconductor/MC7805BDTRKG/MC7805BDTRKGOSCT-ND/1139742
+$ENDCMP
+#
+$CMP PJ-037A
+D DC Barrel Jack 2pin THP
+K DC power barrel jack connector PJ-037A
+F https://www.digikey.com/product-detail/en/cui-inc/PJ-037A/CP-037A-ND/1644545
+$ENDCMP
+#
+$CMP PyBoard-D-Series
+F https://pybd.io/hw/wbus_dip68.html
+$ENDCMP
+#
+$CMP TBD62083APG
+D 8-Channel Source Type Transistor Array, TTL and CMOS compatible, 500mA, 50V, DIP-18
+K transistor arrray power switch driver
+F https://www.digikey.com/products/en?keywords=TBD62083APG
+$ENDCMP
+#
+$CMP TMC5160
+K stepper motor driver
+F https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC5160_Datasheet_V1.01.pdf
+$ENDCMP
+#
+#End Doc Library
