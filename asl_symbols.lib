@@ -6,7 +6,7 @@ EESchema-LIBRARY Version 2.4
 DEF 5569263-1 J 0 40 Y Y 1 F N
 F0 "J" -2300 200 50 H V C CNN
 F1 "5569263-1" -2050 100 50 H V C CNN
-F2 "Andy_footprints:RJ45_12Port" -150 50 50 H I C CNN
+F2 "asl_footprints:RJ45_12Port" -150 50 50 H I C CNN
 F3 "" 950 -150 50 H I C CNN
 DRAW
 T 0 0 -200 100 0 0 0 BOTTOM Normal 0 C C
@@ -184,7 +184,7 @@ ENDDEF
 DEF DIN_Rail_Adapter DRA 0 20 Y Y 1 F N
 F0 "DRA" 0 250 50 H V C CNN
 F1 "DIN_Rail_Adapter" 0 150 50 H V C CNN
-F2 "Andy_footprints:DIN_Clip" 0 -200 50 H I C CNN
+F2 "asl_footprints:DIN_Clip" 0 -200 50 H I C CNN
 F3 "" 0 150 50 H I C CNN
 $FPLIST
  DINRailAdapter?3xM3*
@@ -200,7 +200,7 @@ ENDDEF
 DEF Diode D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
 F1 "Diode" 0 -100 50 H V C CNN
-F2 "Andy_footprints:D_SOD-123F" 0 0 50 H I C CNN
+F2 "asl_footprints:D_SOD-123F" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
  TO-???*
@@ -222,25 +222,7 @@ ENDDEF
 DEF MC7805BDTRKG U 0 10 Y Y 1 F N
 F0 "U" -150 125 50 H V C CNN
 F1 "MC7805BDTRKG" -25 125 50 H V L CNN
-F2 "Andy_footprints:TO-252-2" 0 200 50 H I C CIN
-F3 "" 0 -50 50 H I C CNN
-$FPLIST
- SOT?89*
-$ENDFPLIST
-DRAW
-S -200 75 200 -200 0 1 10 f
-X IN 1 300 0 100 L 50 50 1 1 w
-X GND 2 0 -300 100 U 50 50 1 1 W
-X OUT 3 -300 0 100 R 50 50 1 1 W
-ENDDRAW
-ENDDEF
-#
-# MC7805_DPAK
-#
-DEF MC7805_DPAK U 0 10 Y Y 1 F N
-F0 "U" -150 125 50 H V C CNN
-F1 "MC7805_DPAK" -25 125 50 H V L CNN
-F2 "Andy_footprints:TO-252-2" 0 200 50 H I C CIN
+F2 "asl_footprints:TO-252-2" 0 200 50 H I C CIN
 F3 "" 0 -50 50 H I C CNN
 $FPLIST
  SOT?89*
@@ -258,7 +240,7 @@ ENDDEF
 DEF PJ-037A J 0 40 Y Y 1 F N
 F0 "J" 0 210 50 H V C CNN
 F1 "PJ-037A" 0 -200 50 H V C CNN
-F2 "Andy_footprints:DC_Jack" 50 -40 50 H I C CNN
+F2 "asl_footprints:DC_Jack" 50 -40 50 H I C CNN
 F3 "" 50 -40 50 H I C CNN
 $FPLIST
  BarrelJack*
@@ -280,7 +262,7 @@ ENDDEF
 DEF PyBoard-D-Series U 0 40 Y Y 1 F N
 F0 "U" 50 50 50 H V C CNN
 F1 "PyBoard-D-Series" 3100 -2100 50 H V C CNN
-F2 "Andy_footprints:PyBoard_D-Series" 650 350 50 H I C CNN
+F2 "asl_footprints:PyBoard_D-Series" 650 350 50 H I C CNN
 F3 "" 1100 -1250 50 H I C CNN
 DRAW
 T 0 600 -1100 50 0 0 0 "WBUS A" Normal 0 C C
@@ -383,7 +365,7 @@ ENDDEF
 DEF TBD62083APG U 0 20 Y Y 1 F N
 F0 "U" -300 450 50 H V L CNN
 F1 "TBD62083APG" 50 450 50 H V L CNN
-F2 "Andy_footprints:SSOP-18_4.4x6.5mm_P0.65mm" 0 -550 50 H I C CNN
+F2 "asl_footprints:SSOP-18_4.4x6.5mm_P0.65mm" 0 -550 50 H I C CNN
 F3 "" -300 400 50 H I C CNN
 $FPLIST
  DIP*W7.62mm*

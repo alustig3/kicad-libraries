@@ -42,12 +42,6 @@ K Voltage Regulator 1A Positive
 F https://www.digikey.com/product-detail/en/on-semiconductor/MC7805BDTRKG/MC7805BDTRKGOSCT-ND/1139742
 $ENDCMP
 #
-$CMP MC7805_DPAK
-D Positive 1A 35V Linear Regulator, Fixed Output 5V, DPAK
-K Voltage Regulator 1A Positive
-F https://www.digikey.com/product-detail/en/on-semiconductor/MC7805BDTRKG/MC7805BDTRKGOSCT-ND/1139742
-$ENDCMP
-#
 $CMP PJ-037A
 D DC Barrel Jack 2pin THP
 K DC power barrel jack connector PJ-037A
