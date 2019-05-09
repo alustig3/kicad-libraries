@@ -52,6 +52,12 @@ $CMP PyBoard-D-Series
 F https://pybd.io/hw/wbus_dip68.html
 $ENDCMP
 #
+$CMP R-78E5.0-1.0
+D DC DC Converter 1 Output 5V 1A 8V - 28V Input
+K Voltage Regulator 1A 5V
+F https://www.digikey.com/products/en?keywords=945-2201-ND
+$ENDCMP
+#
 $CMP TBD62083APG
 D 8-Channel Source Type Transistor Array, TTL and CMOS compatible, 500mA, 50V, DIP-18
 K transistor arrray power switch driver
