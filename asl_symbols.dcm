@@ -24,6 +24,10 @@ K SPST-NO tactile switch 6mm smd B3FS-1010P omron
 F https://www.digikey.com/products/en?keywords=sw1440ct
 $ENDCMP
 #
+$CMP DC-DC_converter
+F https://www.digikey.com/product-detail/en/ROF-78E3.3-0.5SMD-R/945-1689-1-ND/3593418/?itemSeq=270101613
+$ENDCMP
+#
 $CMP DIN_Rail_Adapter
 D DIN Rail adapter universal, mounting holes without connection
 K Mounting holes, DIN rail adapter
@@ -58,6 +62,24 @@ K Voltage Regulator 1A 5V
 F https://www.digikey.com/products/en?keywords=945-2201-ND
 $ENDCMP
 #
+$CMP RJ45
+D RJ connector, 8P8C (8 positions 8 connected)
+K 8P8C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP Resonator
+D Three pin ceramic resonator, small symbol
+K ceramic resonator
+F ~
+$ENDCMP
+#
+$CMP Screw_Terminal_01x08
+D 8pos screw terminal
+K screw terminal
+F https://www.digikey.com/product-detail/en/OSTVN08A150/ED10566-ND/1588868/?itemSeq=270117158
+$ENDCMP
+#
 $CMP TBD62083APG
 D 8-Channel Source Type Transistor Array, TTL and CMOS compatible, 500mA, 50V, DIP-18
 K transistor arrray power switch driver
@@ -67,6 +89,15 @@ $ENDCMP
 $CMP TMC5160
 K stepper motor driver
 F https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC5160_Datasheet_V1.01.pdf
+$ENDCMP
+#
+$CMP feather_wing
+D Feather wing connection
+K feather, wing, breakout
+$ENDCMP
+#
+$CMP switch_momentary_NO
+F https://www.digikey.com/products/en?keywords=sw1020ct
 $ENDCMP
 #
 #End Doc Library
