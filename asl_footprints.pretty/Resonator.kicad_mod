@@ -1,9 +1,9 @@
-(module Resonator (layer F.Cu) (tedit 0)
+(module Resonator (layer F.Cu) (tedit 5CFA7C50)
   (descr "Source: http://search.murata.co.jp/Ceramy/CatalogshowpageAction.do?sDirnm=A07X&sFilnm=81G07006&sType=2&sLang=en&sNHinnm=CSTCR6M00G53Z-R0&sCapt=Standard_Land_Pattern_Dimensions")
   (fp_text reference 8MHZ (at 0 -1.651 90) (layer F.Fab)
     (effects (font (size 0.57912 0.57912) (thickness 0.046329)) (justify left bottom))
   )
-  (fp_text value RESONATOR_CSTCE_V (at 0 0) (layer F.SilkS) hide
+  (fp_text value Resonator (at 0 0) (layer F.SilkS) hide
     (effects (font (size 1.27 1.27) (thickness 0.15)))
   )
   (fp_line (start -1.6 -0.65) (end 1.6 -0.65) (layer F.SilkS) (width 0.127))

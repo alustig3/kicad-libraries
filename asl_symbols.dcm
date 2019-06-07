@@ -96,6 +96,10 @@ D Feather wing connection
 K feather, wing, breakout
 $ENDCMP
 #
+$CMP stepper_driver
+F https://learn.watterott.com/silentstepstick/pinconfig/
+$ENDCMP
+#
 $CMP switch_momentary_NO
 F https://www.digikey.com/products/en?keywords=sw1020ct
 $ENDCMP
