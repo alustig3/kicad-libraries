@@ -91,6 +91,12 @@ K stepper motor driver
 F https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC5160_Datasheet_V1.01.pdf
 $ENDCMP
 #
+$CMP Threaded_Standoff
+D Mounting Hole without connection
+K mounting hole, m3
+F https://www.digikey.com/product-detail/en/adafruit-industries-llc/4207/1528-2918-ND/10107229
+$ENDCMP
+#
 $CMP feather_wing
 D Feather wing connection
 K feather, wing, breakout
