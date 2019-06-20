@@ -40,10 +40,22 @@ K diode
 F ~
 $ENDCMP
 #
+$CMP MC4541
+D Digital 100KΩ potentiometer
+K digital, potentiometer, i2c
+F https://www.digikey.com/products/en?keywords=MCP4541T-104E%2FMSTR-ND
+$ENDCMP
+#
 $CMP MC7805BDTRKG
 D Positive 1A 35V Linear Regulator, Fixed Output 5V, DPAK
 K Voltage Regulator 1A Positive
 F https://www.digikey.com/product-detail/en/on-semiconductor/MC7805BDTRKG/MC7805BDTRKGOSCT-ND/1139742
+$ENDCMP
+#
+$CMP NCS2211
+D Audio Amplifier with differential output
+K op-amp, amplifier, audio
+F https://www.digikey.com/products/en?keywords=NCS2211DR2GOSCT-ND
 $ENDCMP
 #
 $CMP PJ-037A
@@ -95,6 +107,12 @@ $CMP Threaded_Standoff
 D Mounting Hole without connection
 K mounting hole, m3
 F https://www.digikey.com/product-detail/en/adafruit-industries-llc/4207/1528-2918-ND/10107229
+$ENDCMP
+#
+$CMP ZLDO1117
+D 3.3v Linear Regulator
+K LDO, linear, regulator
+F https://www.digikey.com/products/en?keywords=ZLDO1117G33DICT-ND
 $ENDCMP
 #
 $CMP feather_wing
