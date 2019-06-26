@@ -40,16 +40,16 @@ K diode
 F ~
 $ENDCMP
 #
-$CMP MC4541
-D Digital 100KΩ potentiometer
-K digital, potentiometer, i2c
-F https://www.digikey.com/products/en?keywords=MCP4541T-104E%2FMSTR-ND
-$ENDCMP
-#
 $CMP MC7805BDTRKG
 D Positive 1A 35V Linear Regulator, Fixed Output 5V, DPAK
 K Voltage Regulator 1A Positive
 F https://www.digikey.com/product-detail/en/on-semiconductor/MC7805BDTRKG/MC7805BDTRKGOSCT-ND/1139742
+$ENDCMP
+#
+$CMP MCP4541
+D Digital 100KΩ potentiometer
+K digital, potentiometer, i2c
+F https://www.digikey.com/products/en?keywords=MCP4541T-104E%2FMSTR-ND
 $ENDCMP
 #
 $CMP NCS2211
