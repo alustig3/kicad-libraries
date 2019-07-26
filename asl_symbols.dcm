@@ -14,7 +14,7 @@ $ENDCMP
 #
 $CMP B3F-4000
 D 12mm SPST-NO tactile switch
-K SPST-NO tactile switch omron B3F-4000
+K SPST-NO tactile switch omron B3F-4000 12mm
 F https://www.digikey.com/products/en?keywords=B3F-4000
 $ENDCMP
 #
@@ -102,6 +102,12 @@ K transistor arrray power switch driver
 F https://www.digikey.com/products/en?keywords=TBD62083APG
 $ENDCMP
 #
+$CMP TL3300
+D 12mm SPST-NO tactile switch smd
+K SPST-NO tactile switch TL3300 smd 12mm
+F https://www.digikey.com/products/en?keywords=EG4906CT-ND
+$ENDCMP
+#
 $CMP TMC5160
 K stepper motor driver
 F https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC5160_Datasheet_V1.01.pdf
@@ -128,8 +134,13 @@ $CMP stepper_driver
 F https://learn.watterott.com/silentstepstick/pinconfig/
 $ENDCMP
 #
-$CMP switch_momentary_NO
+$CMP switch_momentary_2pin
 F https://www.digikey.com/products/en?keywords=sw1020ct
+$ENDCMP
+#
+$CMP switch_momentary_4pin
+D SPST-NO momentary switch
+K momentary switch
 $ENDCMP
 #
 #End Doc Library
