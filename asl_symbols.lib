@@ -289,6 +289,19 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Hirose_40_pin_connector
+#
+DEF Hirose_40_pin_connector X 0 40 Y Y 1 F N
+F0 "X" -250 150 50 H V C CNN
+F1 "Hirose_40_pin_connector" 200 -200 50 H V C CNN
+F2 "asl_footprints:Hirose_40_pin" 100 450 50 H I C CNN
+F3 "" 3600 -2500 50 H I C CNN
+DRAW
+T 0 0 0 50 0 0 0 "40 pin " Normal 0 C C
+S -250 -100 250 100 0 1 0 f
+ENDDRAW
+ENDDEF
+#
 # MC7805BDTRKG
 #
 DEF MC7805BDTRKG U 0 10 Y Y 1 F N

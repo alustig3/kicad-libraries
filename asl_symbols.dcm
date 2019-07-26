@@ -40,6 +40,10 @@ K diode
 F ~
 $ENDCMP
 #
+$CMP Hirose_40_pin_connector
+F https://www.digikey.com/products/en?keywords=H124604CT-ND
+$ENDCMP
+#
 $CMP MC7805BDTRKG
 D Positive 1A 35V Linear Regulator, Fixed Output 5V, DPAK
 K Voltage Regulator 1A Positive
