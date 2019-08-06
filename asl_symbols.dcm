@@ -56,6 +56,12 @@ K digital, potentiometer, i2c
 F https://www.digikey.com/products/en?keywords=MCP4541T-104E%2FMSTR-ND
 $ENDCMP
 #
+$CMP MonoJack
+D mono jack
+K 3.5mm jack audio mono
+F https://www.digikey.com/products/en?keywords=CP-3523MJCT-ND
+$ENDCMP
+#
 $CMP NCS2211
 D Audio Amplifier with differential output
 K op-amp, amplifier, audio
