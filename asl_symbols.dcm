@@ -14,7 +14,7 @@ $ENDCMP
 #
 $CMP B3F-4000
 D 12mm SPST-NO tactile switch
-K SPST-NO tactile switch omron B3F-4000
+K SPST-NO tactile switch omron B3F-4000 12mm
 F https://www.digikey.com/products/en?keywords=B3F-4000
 $ENDCMP
 #
@@ -40,16 +40,26 @@ K diode
 F ~
 $ENDCMP
 #
-$CMP MC4541
-D Digital 100KΩ potentiometer
-K digital, potentiometer, i2c
-F https://www.digikey.com/products/en?keywords=MCP4541T-104E%2FMSTR-ND
+$CMP Hirose_40_pin_connector
+F https://www.digikey.com/products/en?keywords=H124604CT-ND
 $ENDCMP
 #
 $CMP MC7805BDTRKG
 D Positive 1A 35V Linear Regulator, Fixed Output 5V, DPAK
 K Voltage Regulator 1A Positive
 F https://www.digikey.com/product-detail/en/on-semiconductor/MC7805BDTRKG/MC7805BDTRKGOSCT-ND/1139742
+$ENDCMP
+#
+$CMP MCP4541
+D Digital 100KΩ potentiometer
+K digital, potentiometer, i2c
+F https://www.digikey.com/products/en?keywords=MCP4541T-104E%2FMSTR-ND
+$ENDCMP
+#
+$CMP MonoJack
+D mono jack
+K 3.5mm jack audio mono
+F https://www.digikey.com/products/en?keywords=CP-3523MJCT-ND
 $ENDCMP
 #
 $CMP NCS2211
@@ -98,6 +108,12 @@ K transistor arrray power switch driver
 F https://www.digikey.com/products/en?keywords=TBD62083APG
 $ENDCMP
 #
+$CMP TL3300
+D 12mm SPST-NO tactile switch smd
+K SPST-NO tactile switch TL3300 smd 12mm
+F https://www.digikey.com/products/en?keywords=EG4906CT-ND
+$ENDCMP
+#
 $CMP TMC5160
 K stepper motor driver
 F https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC5160_Datasheet_V1.01.pdf
@@ -124,8 +140,13 @@ $CMP stepper_driver
 F https://learn.watterott.com/silentstepstick/pinconfig/
 $ENDCMP
 #
-$CMP switch_momentary_NO
+$CMP switch_momentary_2pin
 F https://www.digikey.com/products/en?keywords=sw1020ct
+$ENDCMP
+#
+$CMP switch_momentary_4pin
+D SPST-NO momentary switch
+K momentary switch
 $ENDCMP
 #
 #End Doc Library
