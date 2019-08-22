@@ -6,6 +6,12 @@ K 12 port RJ45 ethernet jack
 F https://www.digikey.com/products/en?keywords=5569263
 $ENDCMP
 #
+$CMP 74LVC1G14
+D Inverter
+K Inverter 1 channel single
+F https://www.digikey.com/products/en?keywords=296-35944-1-ND
+$ENDCMP
+#
 $CMP AO4882
 D Dual N-Channel MOSFET
 K MOSFET 2 channel dual
@@ -32,6 +38,12 @@ $CMP DIN_Rail_Adapter
 D DIN Rail adapter universal, mounting holes without connection
 K Mounting holes, DIN rail adapter
 F ~
+$ENDCMP
+#
+$CMP DRV8837
+D H-Bridge driver, 1.8A, Low Voltage, PWM input, WSON-8
+K half bridge driver
+F https://www.digikey.com/products/en?keywords=296-34806-1-ND
 $ENDCMP
 #
 $CMP Diode
@@ -85,6 +97,12 @@ F https://www.digikey.com/products/en?keywords=945-2201-ND
 $ENDCMP
 #
 $CMP RJ45
+D RJ connector, 8P8C (8 positions 8 connected)
+K 8P8C RJ female connector
+F ~
+$ENDCMP
+#
+$CMP RJ45_pyControl
 D RJ connector, 8P8C (8 positions 8 connected)
 K 8P8C RJ female connector
 F ~
