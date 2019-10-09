@@ -18,6 +18,12 @@ K Inverter 1 channel single
 F https://www.digikey.com/products/en?keywords=296-35944-1-ND
 $ENDCMP
 #
+$CMP 8pin_header
+D .1" female rectangular header
+K header .1" female
+F https://www.digikey.com/product-detail/en/sullins-connector-solutions/PPTC081LFBN-RC/S7006-ND/810147
+$ENDCMP
+#
 $CMP AO4882
 D Dual N-Channel MOSFET
 K MOSFET 2 channel dual
@@ -38,6 +44,10 @@ $ENDCMP
 #
 $CMP DC-DC_converter
 F https://www.digikey.com/product-detail/en/ROF-78E3.3-0.5SMD-R/945-1689-1-ND/3593418/?itemSeq=270101613
+$ENDCMP
+#
+$CMP DFPlayer
+F https://www.digikey.com/products/en?keywords=1738-1041-ND
 $ENDCMP
 #
 $CMP DIN_Rail_Adapter
@@ -115,7 +125,7 @@ F ~
 $ENDCMP
 #
 $CMP RJ45_HRZ_PTH
-D RJ connector, 8P8C (8 positions 8 connected) 
+D RJ connector, 8P8C (8 positions 8 connected)
 K 8P8C RJ female connector horizontal through hole
 F https://www.digikey.com/products/en?keywords=609-1046-nd
 $ENDCMP
