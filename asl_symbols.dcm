@@ -30,6 +30,12 @@ K MOSFET 2 channel dual
 F https://www.digikey.com/product-detail/en/AO4882/785-1317-1-ND/3061026/?itemSeq=290939937
 $ENDCMP
 #
+$CMP AP7313
+D 3.3v Linear Regulator
+K LDO, linear, regulator
+F https://www.digikey.com/products/en?keywords=AP7313-33SAG-7DICT-ND
+$ENDCMP
+#
 $CMP B3F-4000
 D 12mm SPST-NO tactile switch
 K SPST-NO tactile switch omron B3F-4000 12mm
@@ -196,7 +202,7 @@ F https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC5160_Datas
 $ENDCMP
 #
 $CMP Teensy3.2
-D Teensy 
+D Teensy
 F https://www.pjrc.com/teensy/teensy31.html
 $ENDCMP
 #
