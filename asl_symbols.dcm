@@ -166,6 +166,12 @@ K ceramic resonator
 F ~
 $ENDCMP
 #
+$CMP SGTL5000
+D Audio ic
+K Audio codec i2s
+F https://www.digikey.com/products/en?keywords=SGTL5000XNAA3R2CT-ND
+$ENDCMP
+#
 $CMP Screw_Terminal_01x08
 D 8pos screw terminal
 K screw terminal
@@ -190,6 +196,7 @@ F https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC5160_Datas
 $ENDCMP
 #
 $CMP Teensy3.2
+D Teensy 
 F https://www.pjrc.com/teensy/teensy31.html
 $ENDCMP
 #
