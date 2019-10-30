@@ -189,6 +189,10 @@ K stepper motor driver
 F https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC5160_Datasheet_V1.01.pdf
 $ENDCMP
 #
+$CMP Teensy3.2
+F https://www.pjrc.com/teensy/teensy31.html
+$ENDCMP
+#
 $CMP Threaded_Standoff
 D Mounting Hole without connection
 K mounting hole, m3
