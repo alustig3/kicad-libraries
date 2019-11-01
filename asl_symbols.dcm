@@ -206,6 +206,11 @@ D Teensy
 F https://www.pjrc.com/teensy/teensy31.html
 $ENDCMP
 #
+$CMP Teensy3.2_smd
+D Teensy
+F https://www.pjrc.com/teensy/teensy31.html
+$ENDCMP
+#
 $CMP Threaded_Standoff
 D Mounting Hole without connection
 K mounting hole, m3
