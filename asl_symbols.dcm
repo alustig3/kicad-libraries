@@ -214,7 +214,7 @@ $ENDCMP
 $CMP Threaded_Standoff
 D Mounting Hole without connection
 K mounting hole, m3
-F https://www.digikey.com/product-detail/en/adafruit-industries-llc/4207/1528-2918-ND/10107229
+F https://www.adafruit.com/product/4207
 $ENDCMP
 #
 $CMP ZLDO1117
