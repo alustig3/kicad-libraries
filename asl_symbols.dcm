@@ -36,6 +36,10 @@ K LDO, linear, regulator
 F https://www.digikey.com/products/en?keywords=AP7313-33SAG-7DICT-ND
 $ENDCMP
 #
+$CMP ATMEGA32U4
+F https://www.digikey.com/products/en?keywords=atmega32u4-au-nd
+$ENDCMP
+#
 $CMP B3F-4000
 D 12mm SPST-NO tactile switch
 K SPST-NO tactile switch omron B3F-4000 12mm
@@ -194,6 +198,10 @@ $CMP TL3300
 D 12mm SPST-NO tactile switch smd
 K SPST-NO tactile switch TL3300 smd 12mm
 F https://www.digikey.com/products/en?keywords=EG4906CT-ND
+$ENDCMP
+#
+$CMP TMC2208
+F https://www.digikey.com/products/en?keywords=1460-1184-1-ND
 $ENDCMP
 #
 $CMP TMC5160
