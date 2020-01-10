@@ -40,6 +40,10 @@ $CMP ATMEGA32U4
 F https://www.digikey.com/products/en?keywords=atmega32u4-au-nd
 $ENDCMP
 #
+$CMP AVR_ISP
+F https://www.digikey.com/products/en?keywords=609-5122-ND
+$ENDCMP
+#
 $CMP B3F-4000
 D 12mm SPST-NO tactile switch
 K SPST-NO tactile switch omron B3F-4000 12mm
