@@ -1,4 +1,4 @@
-(module 6mm_tactile_smd (layer F.Cu) (tedit 5CBE231D)
+(module 6mm_tactile_smd (layer F.Cu) (tedit 5E20F1CD)
   (descr "Surface Mount Tactile Switch for High-Density Packaging")
   (tags "Tactile Switch")
   (attr smd)
@@ -32,14 +32,9 @@
   (pad 3 smd rect (at 4 -2.25) (size 1.4 1.6) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -4 2.25) (size 1.4 1.6) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at 4 2.25) (size 1.4 1.6) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/Button_Switch_SMD.3dshapes/SW_SPST_B3S-1000.wrl
+  (model ${KIPRJMOD}/libs/3d/B3FS_1000.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
-  )
-  (model "/Users/lustiga/Dropbox (Personal)/kicad_library/3d/B3FS_1000.step"
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
   )
 )
