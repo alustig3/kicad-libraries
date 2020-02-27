@@ -30,6 +30,12 @@ K MOSFET 2 channel dual
 F https://www.digikey.com/product-detail/en/AO4882/785-1317-1-ND/3061026/?itemSeq=290939937
 $ENDCMP
 #
+$CMP AP2112K-3.3
+D 600mA low dropout linear regulator, wide input voltage range, 3.3V fixed positive output, SOT-23-5 package
+K linear regulator ldo fixed positive voltage
+F https://www.digikey.com/product-detail/en/diodes-incorporated/AP2112K-3.3TRG1/AP2112K-3.3TRG1DICT-ND/4505257
+$ENDCMP
+#
 $CMP AP7313
 D 3.3v Linear Regulator
 K LDO, linear, regulator
@@ -130,6 +136,12 @@ $CMP R-78E5.0-1.0
 D DC DC Converter 1 Output 5V 1A 8V - 28V Input
 K Voltage Regulator 1A 5V
 F https://www.digikey.com/products/en?keywords=945-2201-ND
+$ENDCMP
+#
+$CMP RFM69HCW
+D Low power long range transceiver module, SPI and parallel interface, 868 MHz, spreading factor 6 to12, bandwith 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16
+K radio Low power long range transceiver module
+F https://www.digikey.com/product-detail/en/sparkfun-electronics/COM-13909/1568-1394-ND/6023504
 $ENDCMP
 #
 $CMP RJ45
