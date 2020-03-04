@@ -1,4 +1,4 @@
-(module MonoJack (layer F.Cu) (tedit 5D49CFC1)
+(module MonoJack (layer F.Cu) (tedit 5E602954)
   (fp_text reference REF** (at -3.556 -9.652) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -38,4 +38,9 @@
   (pad T smd rect (at -3.7 5.8) (size 2.8 2.8) (layers F.Cu F.Paste F.Mask))
   (pad "" np_thru_hole circle (at 0 -2.5) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
   (pad "" np_thru_hole circle (at 0 4.5) (size 1.7 1.7) (drill 1.7) (layers *.Cu *.Mask))
+  (model "/Users/lustiga/Dropbox (HHMI)/Code/karpova_lab/pyControl/Hardware Modules/Audio_teensy/pcb/libs/3d/audio_jack.step"
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
