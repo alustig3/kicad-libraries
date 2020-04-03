@@ -1,4 +1,4 @@
-(module 1206_reverse_smd (layer F.Cu) (tedit 5E1F7EC9)
+(module 1206_reverse_smd (layer F.Cu) (tedit 5E87BE74)
   (fp_text reference REF** (at 0.635 2.54 180) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -8,4 +8,9 @@
   (pad 1 smd rect (at -1.625 0 90) (size 1.7 0.75) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.625 0 90) (size 1.7 0.75) (layers F.Cu F.Paste F.Mask))
   (pad "" np_thru_hole circle (at 0 0 90) (size 2.3 2.3) (drill 2.3) (layers *.Cu *.Mask))
+  (model ${KIPRJMOD}/libs/3d/reverse_LED.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
