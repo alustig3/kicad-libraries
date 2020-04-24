@@ -1,4 +1,4 @@
-(module "standoff nut" (layer F.Cu) (tedit 5DC04E7B)
+(module standoff_nut (layer F.Cu) (tedit 5E7AB0D5)
   (fp_text reference REF** (at 0 -3.81) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -6,4 +6,9 @@
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (pad M3 thru_hole circle (at 0 0) (size 6 6) (drill 4.25) (layers *.Cu *.Mask))
+  (model ${KIPRJMOD}/libs/3d/Standoff_nut.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )

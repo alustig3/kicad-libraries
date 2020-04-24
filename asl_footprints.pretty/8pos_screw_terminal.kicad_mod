@@ -1,4 +1,4 @@
-(module 8pos_screw_terminal (layer F.Cu) (tedit 5D0A6A78)
+(module 8pos_screw_terminal (layer F.Cu) (tedit 5E7AAF83)
   (descr ".1\" Screw terminal")
   (tags "8pos, screw, terminal")
   (fp_text reference REF** (at 0 -11.43) (layer F.SilkS)
@@ -22,4 +22,9 @@
   (pad 6 thru_hole circle (at 0 3.81) (size 1.524 1.524) (drill 0.95) (layers *.Cu *.Mask))
   (pad 7 thru_hole circle (at 0 6.35) (size 1.524 1.524) (drill 0.95) (layers *.Cu *.Mask))
   (pad 8 thru_hole circle (at 0 8.89) (size 1.524 1.524) (drill 0.95) (layers *.Cu *.Mask))
+  (model ${KIPRJMOD}/libs/3d/8pos_screw_terminal.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
