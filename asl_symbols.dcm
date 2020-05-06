@@ -42,6 +42,12 @@ K LDO, linear, regulator
 F https://www.digikey.com/products/en?keywords=AP7313-33SAG-7DICT-ND
 $ENDCMP
 #
+$CMP AS1115-BSST
+D 64 LEDs, I2C Interfaced LED Driver with Keyscan, QSOP-24
+K led driver i2c 8 digit 8-digit
+F https://www.digikey.com/products/en?keywords=AS1115-BSSTCT-ND
+$ENDCMP
+#
 $CMP ATMEGA32U4
 F https://www.digikey.com/products/en?keywords=atmega32u4-au-nd
 $ENDCMP
@@ -90,6 +96,12 @@ $ENDCMP
 #
 $CMP Hirose_40_pin_connector
 F https://www.digikey.com/products/en?keywords=H124604CT-ND
+$ENDCMP
+#
+$CMP LTC-4727
+D 4 digit 7 segment LED, common cathode
+K display LED 7-segment 4 digit
+F https://www.digikey.com/products/en?keywords=160-1547-5-ND
 $ENDCMP
 #
 $CMP MC7805BDTRKG
