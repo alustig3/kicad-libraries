@@ -31,13 +31,13 @@ F https://www.digikey.com/product-detail/en/AO4882/785-1317-1-ND/3061026/?itemSe
 $ENDCMP
 #
 $CMP AP2112K-3.3
-D 600mA low dropout linear regulator, wide input voltage range, 3.3V fixed positive output, SOT-23-5 package
+D 600mA 3.3V low dropout linear regulator SOT-23-5 package
 K linear regulator ldo fixed positive voltage
 F https://www.digikey.com/product-detail/en/diodes-incorporated/AP2112K-3.3TRG1/AP2112K-3.3TRG1DICT-ND/4505257
 $ENDCMP
 #
 $CMP AP7313
-D 3.3v Linear Regulator
+D 150mA 3.3v Linear Regulator
 K LDO, linear, regulator
 F https://www.digikey.com/products/en?keywords=AP7313-33SAG-7DICT-ND
 $ENDCMP
@@ -94,6 +94,12 @@ K diode
 F ~
 $ENDCMP
 #
+$CMP FDN340P
+D P-Channel MOSFET, SOT-23
+K P-Channel MOSFET
+F https://www.digikey.com/products/en?keywords=FDN340PCT-ND
+$ENDCMP
+#
 $CMP Hirose_40_pin_connector
 F https://www.digikey.com/products/en?keywords=H124604CT-ND
 $ENDCMP
@@ -105,8 +111,8 @@ F https://www.digikey.com/products/en?keywords=160-1547-5-ND
 $ENDCMP
 #
 $CMP MC7805BDTRKG
-D Positive 1A 35V Linear Regulator, Fixed Output 5V, DPAK
-K Voltage Regulator 1A Positive
+D 1A 5V, up to 35V input, Linear Regulator, DPAK
+K Voltage Regulator 1A
 F https://www.digikey.com/product-detail/en/on-semiconductor/MC7805BDTRKG/MC7805BDTRKGOSCT-ND/1139742
 $ENDCMP
 #
@@ -210,6 +216,18 @@ K Audio codec i2s
 F https://www.digikey.com/products/en?keywords=SGTL5000XNAA3R2CT-ND
 $ENDCMP
 #
+$CMP SPST_B12AP
+D Single Pole Single Throw (SPST) switch
+K switch lever
+F ~
+$ENDCMP
+#
+$CMP SWD_connector
+D Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface
+K Cortex Debug Connector ARM SWD JTAG
+F https://www.digikey.com/products/en?keywords=SAM10710-ND
+$ENDCMP
+#
 $CMP Screw_Terminal_01x08
 D 8pos screw terminal
 K screw terminal
@@ -253,8 +271,14 @@ K mounting hole, m3
 F https://www.adafruit.com/product/4207
 $ENDCMP
 #
+$CMP USB_C_Receptacle_USB2.0
+D USB 2.0-only Type-C Receptacle connector
+K usb universal serial bus type-C USB2.0
+F https://www.digikey.com/products/en?keywords=2073-USB4110-GF-A-1-ND
+$ENDCMP
+#
 $CMP ZLDO1117
-D 3.3v Linear Regulator
+D 1A 3.3v Linear Regulator
 K LDO, linear, regulator
 F https://www.digikey.com/products/en?keywords=ZLDO1117G33DICT-ND
 $ENDCMP
