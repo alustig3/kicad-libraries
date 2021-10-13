@@ -1,5 +1,5 @@
 (footprint "DIN_Clip" (version 20210925) (generator pcbnew) (layer "F.Cu")
-  (tedit 61663672)
+  (tedit 61672798)
   (fp_text reference "REF**" (at 0 0.5) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 6c8ce35d-17a0-4c12-90dd-03cb6a4cd5b7)
@@ -14,8 +14,8 @@
   (fp_line (start -5 21.5) (end -5 -21.5) (layer "B.SilkS") (width 0.12) (tstamp 97b61412-aed3-4736-abd2-3175d688249e))
   (fp_circle (center 0 -12.5) (end 2.95 -12.5) (layer "F.Fab") (width 0.12) (fill none) (tstamp 2185dd32-14d7-44cf-89ee-b2f4e21d7798))
   (fp_circle (center 0 12.5) (end 2.95 12.5) (layer "F.Fab") (width 0.12) (fill none) (tstamp d0e49938-7fdc-41ee-aeb9-1b0c7e3ec75e))
-  (pad "" np_thru_hole circle (at 0 -12.5) (size 6 6) (drill 3) (layers *.Mask "F.Cu") (tstamp c4e1b021-64e5-4782-a07a-ccb93c4dd348))
-  (pad "" np_thru_hole circle (at 0 12.5) (size 6 6) (drill 3) (layers *.Mask "F.Cu") (tstamp f5740b33-5cc7-4bdc-9a77-00302df006ff))
+  (pad "" np_thru_hole circle (at 0 -12.5) (size 6 6) (drill 3) (layers "F.Cu" "F.Mask") (tstamp c4e1b021-64e5-4782-a07a-ccb93c4dd348))
+  (pad "" np_thru_hole circle (at 0 12.5) (size 6 6) (drill 3) (layers "F.Cu" "F.Mask") (tstamp f5740b33-5cc7-4bdc-9a77-00302df006ff))
   (model "${KIPRJMOD}/libs/3d/DIN_clip.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
