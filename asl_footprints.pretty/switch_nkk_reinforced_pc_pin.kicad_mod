@@ -1,5 +1,7 @@
-(footprint "switch_nkk_reinforced_pc_pin" (version 20201220) (generator pcbnew) (layer "F.Cu")
+(footprint "switch_nkk_reinforced_pc_pin" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
   (tedit 601F09F5)
+  (attr through_hole)
   (fp_text reference "REF**" (at -5.08 -11.43 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp f1b154ad-8cfb-4a9a-b5c9-6bf292007c9f)
