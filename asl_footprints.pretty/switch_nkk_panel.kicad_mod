@@ -1,4 +1,4 @@
-(footprint "switch_nkk_panel" (version 20220914) (generator pcbnew)
+(footprint "switch_nkk_panel" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr through_hole)
   (fp_text reference "REF**" (at -5.08 -11.43 unlocked) (layer "F.SilkS")
@@ -11,8 +11,8 @@
   )
   (fp_rect (start -3.95 -6.5) (end 3.95 6.5)
     (stroke (width 0.12) (type solid)) (fill none) (layer "F.CrtYd") (tstamp cea17333-7d14-4b4f-a096-7d6db0e55544))
-  (pad "1" thru_hole circle (at 0 -4.7) (size 2.5 2.5) (drill 1.8) (layers *.Cu *.Mask) (tstamp 817c6cb0-46be-47ab-a8ed-4f0cbba387b1))
-  (pad "2" thru_hole circle (at 0 0) (size 2.5 2.5) (drill 1.8) (layers *.Cu *.Mask) (tstamp 12c50c0a-f048-4299-8d5c-45355aceae47))
+  (pad "1" thru_hole oval (at 0 -4.7) (size 2.8 1.5) (drill oval 2.1 0.8) (layers *.Cu *.Mask) (tstamp 817c6cb0-46be-47ab-a8ed-4f0cbba387b1))
+  (pad "2" thru_hole oval (at 0 0) (size 2.8 1.5) (drill oval 2.1 0.8) (layers *.Cu *.Mask) (tstamp 12c50c0a-f048-4299-8d5c-45355aceae47))
   (model "${KIPRJMOD}/libs/3d/switch_reinforced_pc_pin.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
