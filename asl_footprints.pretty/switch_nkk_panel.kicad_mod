@@ -11,11 +11,11 @@
   )
   (fp_rect (start -3.95 -6.5) (end 3.95 6.5)
     (stroke (width 0.12) (type solid)) (fill none) (layer "F.CrtYd") (tstamp cea17333-7d14-4b4f-a096-7d6db0e55544))
-  (pad "1" thru_hole oval (at 0 -4.7) (size 3 1.7) (drill oval 2.3 1) (layers *.Cu *.Mask) (tstamp 817c6cb0-46be-47ab-a8ed-4f0cbba387b1))
-  (pad "2" thru_hole oval (at 0 0) (size 3 1.7) (drill oval 2.3 1) (layers *.Cu *.Mask) (tstamp 12c50c0a-f048-4299-8d5c-45355aceae47))
-  (model "${KIPRJMOD}/libs/3d/switch_reinforced_pc_pin.wrl"
-    (offset (xyz 0 0 0))
+  (pad "1" thru_hole oval (at 0 -4.7) (size 3 1.7) (drill oval 2.3 1) (layers "*.Cu" "*.Mask") (tstamp 817c6cb0-46be-47ab-a8ed-4f0cbba387b1))
+  (pad "2" thru_hole oval (at 0 0) (size 3 1.7) (drill oval 2.3 1) (layers "*.Cu" "*.Mask") (tstamp 12c50c0a-f048-4299-8d5c-45355aceae47))
+  (model "${KIPRJMOD}/libs/3d/M2011SS1W03.stp"
+    (offset (xyz 0 0 9.4))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz -90 0 0))
   )
 )
