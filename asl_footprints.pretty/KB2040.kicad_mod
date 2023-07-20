@@ -15,8 +15,6 @@
     (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 80ee9183-eb0d-405b-be03-8b8a8e6513a9))
   (fp_line (start 8.89 -16.51) (end 4.953 -16.51)
     (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp b8e28c8a-8cf9-49dd-911b-9f77fec70dcd))
-  (fp_line (start 8.89 2.667) (end 8.89 1.143)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 34816ca9-eb75-4b19-a481-9fa4574cc6a2))
   (fp_rect (start -5 -17.662906) (end 5 -10.362946)
     (stroke (width 0.12) (type solid)) (fill none) (layer "F.SilkS") (tstamp e20b98e0-bfa5-4b60-aa91-0def36caf7ee))
   (pad "1" smd roundrect (at -8.89 -15.24) (size 3 2) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.25) (tstamp e189a326-ac19-41d6-ac00-fd760783c442))
