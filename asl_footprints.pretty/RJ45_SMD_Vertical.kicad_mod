@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 7.62 8.89 0)
+		(at 7.62 9.675 0)
 		(layer "F.SilkS")
 		(uuid "2cf105f1-4805-4585-a4f3-3dee18e78905")
 		(effects
@@ -15,7 +15,7 @@
 		)
 	)
 	(property "Value" "RJ45_SMD_Vertical"
-		(at 0.635 -2.54 0)
+		(at 0.635 -1.755 0)
 		(layer "F.Fab")
 		(uuid "8ff97e4f-4c01-45fd-9524-bdf37bd19072")
 		(effects
@@ -26,7 +26,7 @@
 		)
 	)
 	(property "Footprint" ""
-		(at 0 0 0)
+		(at 0 0.785 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -38,7 +38,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at 0 0.785 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -50,7 +50,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 0 0)
+		(at 0 0.785 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -63,8 +63,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -7.62 -8.31)
-		(end -5.08 -8.31)
+		(start -7.62 -7.525)
+		(end -5.08 -7.525)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -73,8 +73,8 @@
 		(uuid "b0fd4202-e7e6-454d-82c9-7e2f145d83f4")
 	)
 	(fp_line
-		(start -7.62 6.74)
-		(end -7.62 -8.31)
+		(start -7.62 7.525)
+		(end -7.62 -7.525)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -83,8 +83,8 @@
 		(uuid "d28f85c9-209a-4ca6-8081-c210e7d6df4d")
 	)
 	(fp_line
-		(start -4.6 6.74)
-		(end -7.62 6.74)
+		(start -4.6 7.525)
+		(end -7.62 7.525)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -93,8 +93,8 @@
 		(uuid "c3eee2bf-9e6f-4112-84a6-410648c51829")
 	)
 	(fp_line
-		(start 5.08 -8.31)
-		(end 7.62 -8.31)
+		(start 5.08 -7.525)
+		(end 7.62 -7.525)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -103,8 +103,8 @@
 		(uuid "835f0444-447d-4d5d-8653-65d982b6b811")
 	)
 	(fp_line
-		(start 7.62 -8.31)
-		(end 7.62 6.74)
+		(start 7.62 -7.525)
+		(end 7.62 7.525)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -113,8 +113,8 @@
 		(uuid "e2e0ea0f-98a0-4f76-a45d-166df96d7a66")
 	)
 	(fp_line
-		(start 7.62 6.74)
-		(end 4.6 6.74)
+		(start 7.62 7.525)
+		(end 4.6 7.525)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -123,7 +123,7 @@
 		(uuid "c89dda10-239a-44e2-a4dc-296189758354")
 	)
 	(fp_text user "J2"
-		(at 0 7.62 0)
+		(at 0 8.405 0)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "c2d8182a-e6a1-4281-a44d-f6853b57a0f8")
@@ -136,63 +136,63 @@
 		)
 	)
 	(pad "1" smd rect
-		(at -4.445 -8.31 90)
-		(size 6.35 0.76)
+		(at -4.445 -7.525 90)
+		(size 5 0.76)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(solder_mask_margin 0.1016)
 		(uuid "29e2d081-1139-48ac-8380-e72b7ff31385")
 	)
 	(pad "2" smd rect
-		(at -3.175 -8.31 90)
-		(size 6.35 0.76)
+		(at -3.175 -7.525 90)
+		(size 5 0.76)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(solder_mask_margin 0.1016)
 		(uuid "516ead70-81ec-4b3b-9b38-64bf35528a15")
 	)
 	(pad "3" smd rect
-		(at -1.905 -8.31 90)
-		(size 6.35 0.76)
+		(at -1.905 -7.525 90)
+		(size 5 0.76)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(solder_mask_margin 0.1016)
 		(uuid "8b1183cf-122f-4983-8995-42f0ce6c0d56")
 	)
 	(pad "4" smd rect
-		(at -0.635 -8.31 90)
-		(size 6.35 0.76)
+		(at -0.635 -7.525 90)
+		(size 5 0.76)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(solder_mask_margin 0.1016)
 		(uuid "3c880c1e-524c-4595-9368-7950cb12319e")
 	)
 	(pad "5" smd rect
-		(at 0.635 -8.31 90)
-		(size 6.35 0.76)
+		(at 0.635 -7.525 90)
+		(size 5 0.76)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(solder_mask_margin 0.1016)
 		(uuid "6b53ad9d-8d6f-422e-b7a4-cd142f5cfc17")
 	)
 	(pad "6" smd rect
-		(at 1.905 -8.31 90)
-		(size 6.35 0.76)
+		(at 1.905 -7.525 90)
+		(size 5 0.76)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(solder_mask_margin 0.1016)
 		(uuid "87d9a236-5d6d-470c-8030-9db1daf59e9a")
 	)
 	(pad "7" smd rect
-		(at 3.175 -8.31 90)
-		(size 6.35 0.76)
+		(at 3.175 -7.525 90)
+		(size 5 0.76)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(solder_mask_margin 0.1016)
 		(uuid "240b7a29-f351-4981-bd6a-2aea124dc855")
 	)
 	(pad "8" smd rect
-		(at 4.445 -8.31 90)
-		(size 6.35 0.76)
+		(at 4.445 -7.525 90)
+		(size 5 0.76)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(solder_mask_margin 0.1016)
 		(uuid "dab5c856-c208-485e-a965-b9aa3d2d9d8e")
 	)
 	(pad "MNT" smd roundrect
-		(at 0 7.62 90)
+		(at 0 8.405 90)
 		(size 4.5 8.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.1111111111)
@@ -201,7 +201,7 @@
 	)
 	(model "${KIPRJMOD}/libs/3d/RJ45_smd_vertical.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 -0.5 0)
 		)
 		(scale
 			(xyz 1 1 1)
