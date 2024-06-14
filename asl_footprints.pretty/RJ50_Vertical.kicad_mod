@@ -6,7 +6,7 @@
 	(descr "RJ45 connector ")
 	(tags "RJ45")
 	(property "Reference" "REF**"
-		(at 0.508 5.08 0)
+		(at 0.508 6.604 0)
 		(layer "F.SilkS")
 		(uuid "29131044-f699-4060-aa44-ef92b21928c7")
 		(effects
@@ -28,7 +28,7 @@
 		)
 	)
 	(property "Footprint" "RJ50_Vertical"
-		(at -4.1656 9.7536 0)
+		(at 0.508 8.89 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -244,7 +244,7 @@
 		(uuid "25ee3df1-58ab-45b1-8119-e1c09f9bd7ed")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 17.7292 4.9276 0)
+		(at 0.254 4.826 0)
 		(layer "F.Fab")
 		(uuid "a8b4b19f-5a3c-449e-ab62-8cd37ec528e9")
 		(effects
