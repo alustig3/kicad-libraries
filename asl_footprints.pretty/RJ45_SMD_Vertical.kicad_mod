@@ -34,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -46,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +60,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -121,19 +124,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "c89dda10-239a-44e2-a4dc-296189758354")
-	)
-	(fp_text user "J2"
-		(at 0 8.405 0)
-		(layer "F.SilkS")
-		(hide yes)
-		(uuid "c2d8182a-e6a1-4281-a44d-f6853b57a0f8")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-			(justify right top)
-		)
 	)
 	(pad "1" smd rect
 		(at -4.445 -7.525 90)
