@@ -272,26 +272,15 @@
 		(remove_unused_layers no)
 		(uuid "eaa4b6b5-9454-44e7-8e9e-21478f7112cf")
 	)
-	(model "${KIPRJMOD}/libs/3d/vertical RJ45 v1.step"
+	(model "${KIPRJMOD}/libs/3d/E5J88-00LJG2-L.stp"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 9.9 6.8)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "${KIPRJMOD}/libs/3d/vertical RJ45 v1.wrl"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
+			(xyz -90 0 0)
 		)
 	)
 )
