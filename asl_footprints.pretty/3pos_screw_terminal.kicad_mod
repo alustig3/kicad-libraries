@@ -1,0 +1,154 @@
+(footprint "3pos_screw_terminal"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr ".1\" Screw terminal")
+	(tags "8pos, screw, terminal")
+	(property "Reference" "REF**"
+		(at -3.81 5.715 0)
+		(layer "F.SilkS")
+		(uuid "9e204d13-a285-4684-a816-e4f974f33f2c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "3pos_screw_terminal"
+		(at 0 -5.08 0)
+		(layer "F.Fab")
+		(uuid "7e7b68f9-469e-457d-955a-bc09ba524dbd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -1.27 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b567aac-db2f-4251-9393-9de39ace3a45")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -1.27 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "714b048d-0a5c-4d58-bf67-1a25e1d22133")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -1.27 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "400e8541-fa1f-410f-a9ab-dc32f32def8e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.25 -3.81)
+		(end 3.25 -3.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5530c032-8037-4593-bcbd-f815da051984")
+	)
+	(fp_line
+		(start -3.25 3.81)
+		(end -3.25 -3.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "199bd5ae-a7ad-4eea-955b-b852466e948e")
+	)
+	(fp_line
+		(start 3.25 -3.81)
+		(end 3.25 3.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ae282ce0-aab5-4ab0-9168-6d49ecd1366e")
+	)
+	(fp_line
+		(start 3.25 3.81)
+		(end -3.25 3.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "631afa9d-be26-42c2-a5c3-6c598227c4bd")
+	)
+	(fp_text user "OSTVN03A150"
+		(at 0 10.414 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b9c0de99-fe4f-41d2-81a5-905141605c0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 -2.54)
+		(size 1.524 1.524)
+		(drill 0.95)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a02e4bf7-5d50-4c44-991f-0337bb6c4eff")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.524 1.524)
+		(drill 0.95)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f8b3fd05-c56c-4e25-94b5-570a7bb67e6a")
+	)
+	(pad "3" thru_hole circle
+		(at 0 2.54)
+		(size 1.524 1.524)
+		(drill 0.95)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1af0ea8b-65b1-4bc9-815a-be424e47a311")
+	)
+	(model "${KIPRJMOD}/libs/3d/8pos_screw_terminal.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
