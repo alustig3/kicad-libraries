@@ -62,11 +62,12 @@
 		)
 	)
 	(attr through_hole)
-	(pad "" np_thru_hole circle
+	(pad "1" thru_hole circle
 		(at 0 0)
 		(size 6 6)
 		(drill 4.25)
-		(layers "F&B.Cu" "B.Mask")
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
 		(uuid "e1591d9d-d2fc-427d-8168-97a186f33dbc")
 	)
 	(model "${KIPRJMOD}/libs/3d/Standoff_nut.step"
