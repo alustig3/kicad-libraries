@@ -70,7 +70,7 @@
 		(remove_unused_layers no)
 		(uuid "e1591d9d-d2fc-427d-8168-97a186f33dbc")
 	)
-	(model "${KIPRJMOD}/libs/3d/Standoff_nut.step"
+	(model "${KIPRJMOD}/libs/3d/standoff_nut_3mm.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -79,6 +79,17 @@
 		)
 		(rotate
 			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/libs/3d/standoff_nut_10mm.step"
+		(offset
+			(xyz 0 0 -1.62)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 180 0 0)
 		)
 	)
 )
