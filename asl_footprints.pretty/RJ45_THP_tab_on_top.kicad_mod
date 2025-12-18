@@ -1,7 +1,7 @@
 (footprint "RJ45_THP_tab_on_top"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "RJ45 connector ")
 	(tags "RJ45")
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "3d5d5d9a-f131-4661-ad50-845729314171")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -210,7 +198,7 @@
 	)
 	(pad "1" thru_hole rect
 		(at 3.57 -2.54)
-		(size 1.5 1.5)
+		(size 1.4 1.4)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -218,7 +206,7 @@
 	)
 	(pad "2" thru_hole circle
 		(at 2.55 -4.32)
-		(size 1.5 1.5)
+		(size 1.4 1.4)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -226,7 +214,7 @@
 	)
 	(pad "3" thru_hole circle
 		(at 1.53 -2.54)
-		(size 1.5 1.5)
+		(size 1.4 1.4)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -234,7 +222,7 @@
 	)
 	(pad "4" thru_hole circle
 		(at 0.51 -4.32)
-		(size 1.5 1.5)
+		(size 1.4 1.4)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -242,7 +230,7 @@
 	)
 	(pad "5" thru_hole circle
 		(at -0.51 -2.54)
-		(size 1.5 1.5)
+		(size 1.4 1.4)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -250,7 +238,7 @@
 	)
 	(pad "6" thru_hole circle
 		(at -1.53 -4.32)
-		(size 1.5 1.5)
+		(size 1.4 1.4)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -258,7 +246,7 @@
 	)
 	(pad "7" thru_hole circle
 		(at -2.55 -2.54)
-		(size 1.5 1.5)
+		(size 1.4 1.4)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -266,12 +254,13 @@
 	)
 	(pad "8" thru_hole circle
 		(at -3.57 -4.32)
-		(size 1.5 1.5)
+		(size 1.4 1.4)
 		(drill 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "eaa4b6b5-9454-44e7-8e9e-21478f7112cf")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/libs/3d/E5J88-00LJG2-L.stp"
 		(offset
 			(xyz 0 9.9 6.8)
