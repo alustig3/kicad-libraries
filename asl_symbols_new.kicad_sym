@@ -14388,7 +14388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/product-detail/en/cui-inc/PJ-037A/CP-037A-ND/1644545"
+		(property "Datasheet" "https://www.digikey.com/short/v27p09v8"
 			(at 1.27 -1.016 0)
 			(effects
 				(font
@@ -16633,7 +16633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/products/en?keywords=945-2201-ND"
+		(property "Datasheet" "https://www.digikey.com/short/nwm8rm80"
 			(at 0 -1.27 0)
 			(effects
 				(font
@@ -24065,7 +24065,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/products/en?keywords=TBD62083APG"
+		(property "Datasheet" "https://www.digikey.com/short/qmnr87cv"
 			(at -7.62 10.16 0)
 			(effects
 				(font
@@ -32644,7 +32644,7 @@
 				)
 			)
 			(rectangle
-				(start 21.59 59.944)
+				(start 21.59 59.69)
 				(end 72.39 -59.69)
 				(stroke
 					(width 0)
@@ -33052,101 +33052,7 @@
 				)
 			)
 			(pin power_in line
-				(at -50.8 67.31 270)
-				(length 7.62)
-				(name "Vin"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "J1_21"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -50.8 67.31 270)
-				(length 7.62)
-				(hide yes)
-				(name "Vin"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "J1_32"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -50.8 67.31 270)
-				(length 7.62)
-				(hide yes)
-				(name "Vin"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "J1_41"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -50.8 67.31 270)
-				(length 7.62)
-				(hide yes)
-				(name "Vin"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "J1_48"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -50.8 67.31 270)
-				(length 7.62)
-				(hide yes)
-				(name "Vin"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "J1_53"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -48.26 -67.31 90)
+				(at -57.15 -67.31 90)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -33164,9 +33070,44 @@
 				)
 			)
 			(pin power_in line
-				(at -48.26 -67.31 90)
+				(at -55.88 67.31 270)
 				(length 7.62)
-				(hide yes)
+				(name "Vin"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J1_21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -52.07 67.31 270)
+				(length 7.62)
+				(name "Vin"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J1_32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -52.07 -67.31 90)
+				(length 7.62)
 				(name "GND"
 					(effects
 						(font
@@ -33183,9 +33124,26 @@
 				)
 			)
 			(pin power_in line
-				(at -48.26 -67.31 90)
+				(at -48.26 67.31 270)
 				(length 7.62)
-				(hide yes)
+				(name "Vin"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J1_41"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -46.99 -67.31 90)
+				(length 7.62)
 				(name "GND"
 					(effects
 						(font
@@ -33202,9 +33160,26 @@
 				)
 			)
 			(pin power_in line
-				(at -48.26 -67.31 90)
+				(at -44.45 67.31 270)
 				(length 7.62)
-				(hide yes)
+				(name "Vin"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J1_48"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -41.91 -67.31 90)
+				(length 7.62)
 				(name "GND"
 					(effects
 						(font
@@ -33221,9 +33196,26 @@
 				)
 			)
 			(pin power_in line
-				(at -48.26 -67.31 90)
+				(at -40.64 67.31 270)
 				(length 7.62)
-				(hide yes)
+				(name "Vin"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J1_53"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -36.83 -67.31 90)
+				(length 7.62)
 				(name "GND"
 					(effects
 						(font
@@ -33874,83 +33866,8 @@
 					)
 				)
 			)
-			(pin output line
-				(at 46.99 67.31 270)
-				(length 7.62)
-				(name "Vcc"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "J2_23"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 46.99 67.31 270)
-				(length 7.62)
-				(hide yes)
-				(name "Vcc"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "J2_32"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 46.99 67.31 270)
-				(length 7.62)
-				(hide yes)
-				(name "Vcc"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "J2_43"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 46.99 67.31 270)
-				(length 7.62)
-				(hide yes)
-				(name "Vcc"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "J2_69"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin power_in line
-				(at 46.99 -67.31 90)
+				(at 38.1 -67.31 90)
 				(length 7.62)
 				(name "GND"
 					(effects
@@ -33967,10 +33884,27 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 46.99 -67.31 90)
+			(pin output line
+				(at 41.91 67.31 270)
 				(length 7.62)
-				(hide yes)
+				(name "Vcc"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J2_23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 43.18 -67.31 90)
+				(length 7.62)
 				(name "GND"
 					(effects
 						(font
@@ -33986,10 +33920,27 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 46.99 -67.31 90)
+			(pin passive line
+				(at 45.72 67.31 270)
 				(length 7.62)
-				(hide yes)
+				(name "Vcc"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J2_34"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 48.26 -67.31 90)
+				(length 7.62)
 				(name "GND"
 					(effects
 						(font
@@ -34005,10 +33956,45 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 46.99 -67.31 90)
+			(pin passive line
+				(at 49.53 67.31 270)
 				(length 7.62)
-				(hide yes)
+				(name "Vcc"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J2_43"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 53.34 67.31 270)
+				(length 7.62)
+				(name "Vcc"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J2_69"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 53.34 -67.31 90)
+				(length 7.62)
 				(name "GND"
 					(effects
 						(font
@@ -34025,9 +34011,8 @@
 				)
 			)
 			(pin power_in line
-				(at 46.99 -67.31 90)
+				(at 58.42 -67.31 90)
 				(length 7.62)
-				(hide yes)
 				(name "GND"
 					(effects
 						(font
