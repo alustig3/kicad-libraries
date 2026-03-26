@@ -7746,7 +7746,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/short/dc54tmvm"
 			(at 0 3.81 0)
 			(effects
 				(font
@@ -35958,6 +35958,7 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "B3F-4000"
 		(extends "switch_momentary_4pin")
@@ -36022,6 +36023,7 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "B3FS-1010P"
 		(extends "switch_momentary_4pin")
@@ -36086,6 +36088,7 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RJ45_HRZ_PTH"
 		(extends "RJ45")
@@ -36143,6 +36146,7 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RJ45_HRZ_SMD"
 		(extends "RJ45")
@@ -36200,6 +36204,7 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RJ45_VRT_PTH"
 		(extends "RJ45")
@@ -36257,6 +36262,7 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "RJ45_VRT_SMD"
 		(extends "RJ45")
@@ -36314,6 +36320,7 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 	(symbol "TL3300"
 		(extends "switch_momentary_4pin")
@@ -36378,5 +36385,6 @@
 				(hide yes)
 			)
 		)
+		(embedded_fonts no)
 	)
 )
