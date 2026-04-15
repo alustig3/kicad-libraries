@@ -1,7 +1,7 @@
 (footprint "DIN_Clip"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 0.5 0)
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "85c3658f-4f9f-46f6-bc46-7006c83f3ba9")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -70,7 +58,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(layer "B.SilkS")
+		(layer "B.Fab")
 		(uuid "76cf2b2b-3383-4671-a35b-2d8c4d67dc30")
 	)
 	(fp_line
@@ -80,7 +68,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(layer "B.SilkS")
+		(layer "B.Fab")
 		(uuid "97b61412-aed3-4736-abd2-3175d688249e")
 	)
 	(fp_line
@@ -90,7 +78,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(layer "B.SilkS")
+		(layer "B.Fab")
 		(uuid "22750945-f1de-455c-84d1-4bb831cd019e")
 	)
 	(fp_line
@@ -100,7 +88,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(layer "B.SilkS")
+		(layer "B.Fab")
 		(uuid "55e9d514-1b5b-40b3-8bea-6f610ea01537")
 	)
 	(fp_circle
@@ -110,7 +98,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "2185dd32-14d7-44cf-89ee-b2f4e21d7798")
 	)
@@ -121,27 +109,13 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "d0e49938-7fdc-41ee-aeb9-1b0c7e3ec75e")
 	)
-	(pad "" np_thru_hole circle
-		(at 0 -12.5)
-		(size 6 6)
-		(drill 3)
-		(layers "F.Cu" "F.Mask")
-		(uuid "35abc65e-c1a8-410a-b770-f174f6fc709b")
-	)
-	(pad "" np_thru_hole circle
-		(at 0 12.5)
-		(size 6 6)
-		(drill 3)
-		(layers "F.Cu" "F.Mask")
-		(uuid "f5740b33-5cc7-4bdc-9a77-00302df006ff")
-	)
 	(pad "1" thru_hole circle
 		(at 0 -12.5)
-		(size 4 4)
+		(size 6 6)
 		(drill 3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
@@ -149,12 +123,13 @@
 	)
 	(pad "2" thru_hole circle
 		(at 0 12.5)
-		(size 4 4)
+		(size 6 6)
 		(drill 3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "dfa24a06-5c6f-4814-ad74-61a004fc7fa9")
 	)
+	(embedded_fonts no)
 	(model "${KIPRJMOD}/libs/3d/DIN_clip.step"
 		(offset
 			(xyz 0 0 0)
