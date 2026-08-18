@@ -1,0 +1,181 @@
+(footprint "Converter_DCDC_traco_3A"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "DCDC-Converter, RECOM, RECOM_R-78E-0.5, SIP-3, pitch 2.54mm, package size 11.6x8.5x10.4mm^3, https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf")
+	(tags "dc-dc recom buck sip-3 pitch 2.54mm")
+	(property "Reference" "REF**"
+		(at 0 -7 0)
+		(layer "F.SilkS")
+		(uuid "dba9379c-a633-4267-ad86-be4ecbf6eabe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Converter_DCDC_traco_3A"
+		(at 0 3 0)
+		(layer "F.Fab")
+		(uuid "1329f416-60c3-4f9b-bcf8-53c2a6f471b0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c085a0b-c5de-4ebe-859c-b5e95acd7257")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7d430034-c8b1-45d7-b8a7-4b3b27574c04")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -7.3 0.31)
+		(end -7.3 1.74)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6b9249c4-50a7-4839-83a5-8345d4e12f53")
+	)
+	(fp_line
+		(start -7.3 1.74)
+		(end -6.01 1.74)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4c3de341-6c09-440e-9576-b17f59100bd1")
+	)
+	(fp_rect
+		(start -7.3 -6.46)
+		(end 7.3 1.74)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ad3e4f74-c8ad-4794-b5cf-98b3c6747ba8")
+	)
+	(fp_line
+		(start -7 -6.16)
+		(end 7 -6.16)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8e14f5fc-eb89-4fce-976b-66de8bdf6b6d")
+	)
+	(fp_line
+		(start -7 0.5)
+		(end -7 -6.16)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7eb52aff-0329-4fae-8805-41299c4d9dea")
+	)
+	(fp_line
+		(start -6.03682 1.44)
+		(end -7 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "38c2c7f8-c633-46ca-880f-6aa1c3fb30e6")
+	)
+	(fp_line
+		(start 7 -6.16)
+		(end 7 1.44)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0daf8bc8-4e92-4614-972a-7b6e45f7241f")
+	)
+	(fp_line
+		(start 7 1.44)
+		(end -6 1.44)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "34cddbad-9aa7-4d55-9058-a111d1599717")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.25 0)
+		(layer "F.Fab")
+		(uuid "1a1638d5-2f96-418e-a80b-7b015daa861c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -2.54 0)
+		(size 1.25 2.05)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "79109fde-4bbd-4521-bf79-0aa02dea1b1b")
+	)
+	(pad "2" thru_hole oval
+		(at 0 0)
+		(size 1.5 2.05)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5e3b6519-a33b-49bb-961c-c9d74112ae41")
+	)
+	(pad "3" thru_hole oval
+		(at 2.54 0)
+		(size 1.25 2.05)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "66ea544f-4ef8-4f0b-b94a-f6cef4b1ab3f")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libs/3d/TSR 3-2450N.STEP"
+		(offset
+			(xyz 0 2.36 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)
