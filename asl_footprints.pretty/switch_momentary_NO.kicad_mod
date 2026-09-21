@@ -1,19 +1,124 @@
-(module switch_momentary_NO (layer F.Cu) (tedit 5CF96BFB)
-  (descr B3U-1000P)
-  (tags "momentary, NO, normally, open")
-  (fp_text reference S1 (at 1.016 -2.794) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right top))
-  )
-  (fp_text value SWITCH-MOMENTARY-NO (at 8.382 2.286) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.15)) (justify right top))
-  )
-  (fp_circle (center 0 0) (end 0.75 0) (layer F.SilkS) (width 0.127))
-  (fp_line (start -1.5 -1.25) (end 1.5 -1.25) (layer F.SilkS) (width 0.127))
-  (fp_line (start -1.5 1.25) (end 1.5 1.25) (layer F.SilkS) (width 0.127))
-  (fp_line (start -1.5 1.25) (end -1.5 -1.25) (layer F.SilkS) (width 0.127))
-  (fp_line (start 1.5 1.25) (end 1.5 -1.25) (layer F.SilkS) (width 0.127))
-  (pad P$1 smd rect (at -1.7 0) (size 0.8 1.7) (layers F.Cu F.Paste F.Mask)
-    (solder_mask_margin 0.0508))
-  (pad P$2 smd rect (at 1.7 0) (size 0.8 1.7) (layers F.Cu F.Paste F.Mask)
-    (solder_mask_margin 0.0508))
+(footprint "switch_momentary_NO"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "B3U-1000P")
+	(tags "momentary, NO, normally, open")
+	(property "Reference" "S1"
+		(at 1.016 -2.794 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "94d40f87-abd8-43c5-9218-e794d01b2e80")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(property "Value" "SWITCH-MOMENTARY-NO"
+		(at 8.382 2.286 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "103891c5-9a9f-4ee5-8871-699a4f7edef1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify right top)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2bd7449f-c480-4748-afe4-6ed5f2d07658")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "31d8ba4f-1a87-4c77-9621-e66e1881ba28")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.5 -1.25)
+		(end 1.5 -1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8e3dba62-7ead-47e3-b8b4-c67faec37273")
+	)
+	(fp_line
+		(start -1.5 1.25)
+		(end -1.5 -1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9db04134-a494-406e-a5b7-7ea04d70ec4e")
+	)
+	(fp_line
+		(start -1.5 1.25)
+		(end 1.5 1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "db7e995b-af16-47cd-9d26-e6610a2d91e0")
+	)
+	(fp_line
+		(start 1.5 1.25)
+		(end 1.5 -1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f173c086-aaf7-47b6-bfd5-693d21d080a4")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.75 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "30640a89-3025-4a67-bc23-1ad444360e00")
+	)
+	(pad "1" smd rect
+		(at -1.7 0)
+		(size 0.8 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(uuid "b2dbbee3-4070-408c-9c3e-034cf541cf04")
+	)
+	(pad "2" smd rect
+		(at 1.7 0)
+		(size 0.8 1.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.0508)
+		(uuid "d36e27e3-0cff-487a-bc68-2b32afc755f7")
+	)
+	(embedded_fonts no)
 )
